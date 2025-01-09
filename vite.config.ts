@@ -8,13 +8,12 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   server: {
-    // Vite handles history API fallback automatically for SPAs,
-    // No need for historyApiFallback like in webpack
     fs: {
       strict: true,  // Optional: Makes sure file system access is controlled
     },
     watch: {
       usePolling: true, // Optional: For environments that require polling for file changes
-    }
+    },
   },
+  base: '/',  // Ensures that all assets are correctly linked when deployed
 });
