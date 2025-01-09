@@ -1,2 +1,2 @@
-﻿# Website Projec.
-# Launching very soon
+﻿# Website Project.
+# Being Launched very soon.
