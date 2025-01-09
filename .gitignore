@@ -47,3 +47,5 @@ Thumbs.db
 
 # Ignore large or sensitive files
 *.env
+dist/*
+!dist/_redirects
