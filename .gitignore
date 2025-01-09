@@ -7,57 +7,43 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Runtime data
+node_modules/
+dist/
+dist-ssr/
+build/
+.cache/
 *.local
 
-# Editor directories and files
-.vscode/*
+# Dependency directories
+.npm/
+.env
+
+# Editor-specific files
+.vscode/
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-.env
-
-
-
-# Node.js/React project
-node_modules/
-build/
-dist/
-.env
-.idea/
-.vscode/
-
-# OS files
 .DS_Store
 Thumbs.db
 
-# Other unnecessary files
-.npm/
-.cache/
-*.log
+# Python cache and checkpoints
+__pycache__/
+.ipynb_checkpoints/
+.anaconda/
 
+# Operating System files
+.DS_Store
+Thumbs.db
 
+# Personal or redundant paths (cleaned for clarity)
 ../../../*
 ../../*
 ../*
 
-
-# Ignore Python cache files
-__pycache__/
-
-# Ignore Jupyter notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore specific directories
-.anaconda/
-.vscode/
-
-
-
+# Ignore large or sensitive files
+*.env
